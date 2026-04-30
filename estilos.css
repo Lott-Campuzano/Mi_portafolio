@@ -27,6 +27,7 @@
 }
 
 .contenedorTexto{
+    color: var(--fondoOscuro);
     flex-direction: column;
     margin-right: 30px;
 }
@@ -78,4 +79,33 @@
     gap: 20px;
     width: 100%;
     margin: 20px 0;
+}
+
+@media  (prefers-color-scheme: dark ){
+    .fondo.adaptive{
+        background: var(--fondoOscuro);
+    }
+
+    .contenedorTexto.adaptive{
+        color: var(--fondoClaro);
+    }
+
+    .banner.adaptive{
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        background-color: var(--blurOscuroInactivo);
+    }
+
+    .tituloBanner.adaptive{
+        color: var(--fondoClaro);
+    }
+
+    .subtituloBanner.adaptive{
+        color: var(--fondoClaro);
+    }
+
+    .textoBanner.adaptive{
+        color: var(--fondoClaro);
+
+    }
+
 }
