@@ -82,6 +82,10 @@
 }
 
 @media  (prefers-color-scheme: dark ){
+    .github.adaptive{
+        color: rgb(255, 255, 255);
+    }
+
     .fondo.adaptive{
         background: var(--fondoOscuro);
     }
@@ -91,7 +95,7 @@
     }
 
     .banner.adaptive{
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
         background-color: var(--blurOscuroInactivo);
     }
 
